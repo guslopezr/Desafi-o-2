@@ -1,0 +1,94 @@
+/* style.css */
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+link {
+    color: whitesmoke
+}
+
+.header {
+    height: 30em;
+    background-image: url("../imgs/mosaicoheader.jpg");
+    background-size: cover;
+    background-position: center;
+    background-color: rgb(224, 233, 238);
+    color: aliceblue;
+}
+
+h1 {
+    margin: 0px;
+    font-weight: 400;
+    color: aliceblue;
+}
+
+
+/* Agregar a style.css */
+
+.products {
+    width: 80%;
+    margin: auto;
+}
+
+.products td {
+    width: 50%;
+    padding: 2em;
+}
+
+.products img {
+    width: 100%;
+    border: solid 1px #ddd;
+}
+
+.footer {
+    height: 6em;
+    line-height: 3em;
+    background-color: rgb(114, 188, 201);
+    color: rgb(245, 248, 250);
+    text-align: center;
+    font-weight: 900;
+}
+
+.bio {
+    text-align: justify;
+    width: 75%;
+    margin: auto;
+}
+
+.centerfooter {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* CSS */
+
+.button-43 {
+    background-image: linear-gradient(-180deg, #37AEE2 0%, #1E96C8 100%);
+    border-radius: .5rem;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    display: flex;
+    font-size: 16px;
+    justify-content: center;
+    padding: 1rem 1.75rem;
+    text-decoration: none;
+    width: 30%;
+    margin-left: 35%;
+    border: 0;
+    cursor: pointer;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+.button-43:hover {
+    background-image: linear-gradient(-180deg, #1D95C9 0%, #17759C 100%);
+}
+
+@media (min-width: 768px) {
+    .button-43 {
+        padding: 1rem 2rem;
+    }
+}
